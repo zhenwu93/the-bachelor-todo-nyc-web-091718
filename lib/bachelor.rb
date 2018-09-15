@@ -14,7 +14,7 @@ def get_contestant_name(data, occupation)
     contestants.each do |person|
       person.each do |key, value|
       if value == occupation
-        return people["name"]
+        return person["name"]
         end
       end
     end
